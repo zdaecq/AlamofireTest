@@ -64,6 +64,7 @@
 		662570211D08CB1B0015BE61 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66256FE81D08CB1B0015BE61 /* UIViewExtensions.swift */; };
 		662570221D08CB1B0015BE61 /* UIWindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66256FE91D08CB1B0015BE61 /* UIWindowExtensions.swift */; };
 		662570231D08CB1B0015BE61 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66256FEA1D08CB1B0015BE61 /* LoadingView.swift */; };
+		662570251D0A12010015BE61 /* GoogleStaticMapsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662570241D0A12010015BE61 /* GoogleStaticMapsWrapper.swift */; };
 		66E9CA0D1D02BF07005FF54D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E9CA0C1D02BF07005FF54D /* AppDelegate.swift */; };
 		66E9CA0F1D02BF07005FF54D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E9CA0E1D02BF07005FF54D /* ViewController.swift */; };
 		66E9CA121D02BF07005FF54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E9CA101D02BF07005FF54D /* Main.storyboard */; };
@@ -131,6 +132,7 @@
 		66256FE81D08CB1B0015BE61 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		66256FE91D08CB1B0015BE61 /* UIWindowExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWindowExtensions.swift; sourceTree = "<group>"; };
 		66256FEA1D08CB1B0015BE61 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		662570241D0A12010015BE61 /* GoogleStaticMapsWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleStaticMapsWrapper.swift; sourceTree = "<group>"; };
 		66E9CA091D02BF07005FF54D /* AlamofireTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E9CA0C1D02BF07005FF54D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66E9CA0E1D02BF07005FF54D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				66256FC41D08CB1B0015BE61 /* Extentions.swift */,
 				66256FC51D08CB1B0015BE61 /* ExtentionsOthers */,
 				66256FEA1D08CB1B0015BE61 /* LoadingView.swift */,
+				662570241D0A12010015BE61 /* GoogleStaticMapsWrapper.swift */,
 			);
 			path = swiftMy;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662570251D0A12010015BE61 /* GoogleStaticMapsWrapper.swift in Sources */,
 				66E9CA0F1D02BF07005FF54D /* ViewController.swift in Sources */,
 				66E9CA0D1D02BF07005FF54D /* AppDelegate.swift in Sources */,
 				662570081D08CB1B0015BE61 /* CharacterExtensions.swift in Sources */,

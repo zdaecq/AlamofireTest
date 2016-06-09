@@ -57,9 +57,25 @@ class Forecast2: EVObject {
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        //let place =  "51.477222,0"
+        let place =  "краснодар ставрапольская 131"
+
+        
+        let wrapper = GoogleStaticMapsWrapper (place: place, width: Int(imageView.frame.width), height: Int(imageView.frame.height), zoom: 17)
+        
+        wrapper.markerIconURL = "http://clevelandhistorical.org/themes/curatescape/images/marker.png"
+        //wrapper.mapType = .Hybrid
+        //wrapper.imageFormat = .jpg
+        //wrapper.imageScale = .two
+        wrapper.language = "ru"
+        imageView.image = wrapper.image
+
+        
         
         
         /*{
